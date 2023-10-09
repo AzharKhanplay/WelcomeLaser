@@ -3,25 +3,41 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --primary-color: #ef4836;
+  --secondary-color: #22313f;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer components{
+  .btn-primary{
+    @apply text-white inline-block border-2 py-3 px-7 bg-primary-700 hover:border-primary-700 hover:bg-transparent hover:text-black
+  }
+  .btn-primary-2{
+    @apply inline-block border-2 border-primary-700 py-3 px-8 text-primary-700 hover:bg-primary-700 hover:text-white
+  }
+  .main-heading{
+    @apply text-3xl font-bold
+  }
+  .h-line{
+    @apply inline-block mt-3 bg-primary-700
   }
 }
+.h-line{
+  width: 100px;
+  height: 2px;
+}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@layer components{
+ .container{
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+ }
+
+ @media and (max-width: 992px){
+  .container{
+    padding: 0 20px;
+  }
+ }
+ 
 }
