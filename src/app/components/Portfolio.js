@@ -10,7 +10,7 @@ function Portfolio(props) {
           <h2 className='main-heading'>Our Portfolio</h2>
           <div className='h-line' ></div>
         </div>
-        <div className=' grid grid-cols-4 gap-5 text-center mt-5'>
+        <div className=' grid grid-cols-2 md:grid-cols-4 gap-5 text-center mt-5'>
          <div className='g_box group overflow-hidden'>
            <Image src="/shoes-laser-cutting-service.jpg" alt="Image" width="400" height="400" className=' transition-all ease-in-out group-hover:scale-110'/>
          </div>

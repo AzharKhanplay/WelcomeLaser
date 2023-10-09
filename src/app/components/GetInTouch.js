@@ -43,9 +43,9 @@ const GetInTouch = () => {
          <h2 className='main-heading'>Get In Touch</h2>
          <div className='h-line'></div>
        </div>
-      <div className='flex items-center mt-6'>
+      <div className='flex flex-wrap items-center mt-6'>
         {/* Contact Information */}
-        <div className="w-1/2 p-8 mr-8">
+        <div className="w-full md:w-1/2 p-4 md:p-8">
           <div className="flex items-center mb-6">
             <span className="text-gray-700 mr-2 text-4xl"><AiOutlineMail/></span>
             <span className='ps-3 text-lg'><b className='block'>Email</b> <a href='mailto:welcomelaser@gmail.com'>welcomelaser@gmail.com</a></span>
@@ -64,7 +64,7 @@ const GetInTouch = () => {
         </div>
 
         {/* Contact Form */}
-        <div className="w-1/2 p-8">
+        <div className="w-full md:w-1/2 py-8 md:p-8">
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
               <label htmlFor="name" className="block text-gray-700 mb-2">Name</label>

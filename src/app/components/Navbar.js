@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { TbMenu2 } from 'react-icons/tb'
 
 const Navbar = () => {
   return (
@@ -24,8 +25,8 @@ const Navbar = () => {
               Contact
             </Link>
           </div>
-          <div className="md:hidden flex items-center">
-            {/* Add your mobile menu icon here */}
+          <div className="md:hidden flex items-center text-white text-3xl">
+            <TbMenu2/>
           </div>
         </div>
       </div>

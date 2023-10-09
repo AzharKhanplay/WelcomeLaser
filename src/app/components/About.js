@@ -5,8 +5,8 @@ function About() {
   return (
     <section className='py-10 bg-secondary-700'>
       <div className='container'>
-        <div className='flex items-center'>
-          <div className='md:w-4/12'>
+        <div className='flex flex-wrap gap-5 items-center'>
+          <div className='md:w-4/12 order-2 md:order-1'>
             <Image
              src="/shoes-laser-cutting-service.jpg"
              alt="About Us"
@@ -14,7 +14,7 @@ function About() {
              height="500"
             />
           </div>
-          <div className='md:w-8/12 text-white'>
+          <div className='md:w-8/12 text-white order-1 md:order-1'>
             <h2 className='main-heading'>About Us</h2>
             <div className='h-line'></div>
             <p className='mb-3 mt-4'>WelcomeLaser is the epitome of precision and artistry in the realms of leather, rexine, and fabric industries. With state-of-the-art laser technology, we craft, engrave, and cut with unmatched accuracy, breathing life into every project.</p>

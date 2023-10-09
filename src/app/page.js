@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 
 import { MdOutlineDesignServices, MdContentCut } from 'react-icons/md'
 import { GiLaserburn } from 'react-icons/gi'
+import Head from 'next/head';
 
 const services = [
   {
@@ -32,6 +33,11 @@ const services = [
 const Home = () => {
   return (
    <main>
+    <Head>
+      <title>Welcome Laser Cutting Services in West Delhi, India | Precision Engraving, Cutting, and Design</title>
+      <meta name='description' content="Welcome Laser offers top-notch laser cutting services in West Delhi, India. Our expert team provides high-precision engraving, cutting, and custom design solutions for leather, rexine, and fabric industries. Explore our services today!"/>
+    </Head>
+
     <Navbar/>
     <Header/>
 
@@ -42,7 +48,7 @@ const Home = () => {
       <p className="text-lg mb-8">
         Offering engraving, cutting, and design services for leather, rexine, and fabric industries.
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         {services.map((service, index) => (
           <ServiceCard key={index} icon={service.icon} title={service.title} description={service.description} />
         ))}
