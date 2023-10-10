@@ -3,12 +3,12 @@ import Navbar from '@/app/components/Navbar';
 import GetInTouch from '@/app/components/GetInTouch';
 import Footer from '@/app/components/Footer';
 import Image from 'next/image';
-import { data } from '@/app@/app/utils/data'
+import { portfolioData } from '@/app/utils/data'
 import Head from 'next/head';
 
 const Page = () => {
 
-  const portfolio_images = data.map((img) => {
+  const portfolio_images = portfolioData.map((img) => {
     return <div className='g_box group overflow-hidden' key={img.i}>
       <Image src={img.src} alt={img.category} width="400" height="400" className=' transition-all ease-in-out group-hover:scale-110'/>
     </div>

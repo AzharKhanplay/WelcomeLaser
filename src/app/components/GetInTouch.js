@@ -87,7 +87,7 @@ const GetInTouch = () => {
             <div className="mb-4">
               <label htmlFor="message" className="block text-gray-700 mb-2">Message</label>
               <textarea id="message" name="message" className="w-full border border-gray-300 rounded px-4 py-2 h-32"
-               setMessage={(e) => { setMessage(e.target.value);}}
+               onChange={(e) => { setMessage(e.target.value);}}
                required></textarea>
             </div>
             <button type="submit" className=" bg-primary-700 text-white px-8 py-4 rounded-full hover:bg-blue-700">Send Message</button>
