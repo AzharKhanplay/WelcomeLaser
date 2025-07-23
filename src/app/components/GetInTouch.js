@@ -53,8 +53,8 @@ const GetInTouch = () => {
           <div className="flex items-center mb-6">
             <span className="text-gray-700 mr-2 text-4xl"><FaPhoneVolume/></span>
             <span className='ps-3 text-lg'>
-              <a href='tel:9876-5432-10'>9876-5432-10</a><br/>
-              <a href='tel:9876-5432-10'>9876-5432-10</a>
+              <a href='tel:8178984954'>8178984954</a><br/>
+              <a href='tel:9643479584'>9643479584</a>
             </span>
           </div>
           <div className="flex items-center text-lg">
