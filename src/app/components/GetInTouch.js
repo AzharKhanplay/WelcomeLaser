@@ -59,7 +59,7 @@ const GetInTouch = () => {
           </div>
           <div className="flex items-center text-lg">
             <span className="text-gray-700 mr-3 text-4xl"><FaLocationDot/></span>
-            <span className='ps-3'><b>Address:</b><br/>123 Main Street, Cityville</span>
+            <span className='ps-3'><b>Address:</b><br/>Nihal Vihar, Nangloi, Delhi - 110041</span>
           </div>
         </div>
 
