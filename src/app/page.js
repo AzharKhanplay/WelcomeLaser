@@ -18,8 +18,8 @@ const services = [
   },
   {
     icon: <MdContentCut/>,
-    title: 'Cutting',
-    description: 'Our cutting solutions stand out for their unparalleled accuracy. From leather to rexine and fabric, we guarantee flawlessly cut materials, meeting the highest industry standards.',
+    title: 'Siroski',
+    description: 'Add a touch of elegance to your footwear with our Siroski service. We expertly apply decorative nugs and stones to ladies’ shoes and sandal uppers, creating stunning, eye-catching designs that enhance style and sophistication.',
   },
   {
     icon: <MdOutlineDesignServices/>,
