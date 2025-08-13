@@ -8,7 +8,7 @@ import GetInTouch from './components/GetInTouch';
 import Footer from './components/Footer';
 
 import { MdOutlineDesignServices, MdContentCut } from 'react-icons/md'
-import { GiLaserburn } from 'react-icons/gi'
+import { GiLaserburn,GiSonicShoes  } from 'react-icons/gi'
 
 const services = [
   {
@@ -17,7 +17,7 @@ const services = [
     description: 'Experience the pinnacle of precision with our high-quality engraving services. Whether it\'s leather, rexine, or fabric, our expertise ensures impeccable results for every project.',
   },
   {
-    icon: <MdContentCut/>,
+    icon: <GiSonicShoes />,
     title: 'Siroski',
     description: 'Add a touch of elegance to your footwear with our Siroski service. We expertly apply decorative nugs and stones to ladies’ shoes and sandal uppers, creating stunning, eye-catching designs that enhance style and sophistication.',
   },
