@@ -40,11 +40,12 @@ const Home = () => {
 
     <section className="py-10 text-center">
      <div className='container'>
-      <h2 className="main-heading">Precision Laser Cutting Services</h2>
-      <div className='h-line'></div>
-      <p className="text-lg mb-8">
-        Offering engraving, cutting, and design services for leather, rexine, and fabric industries.
-      </p>
+      <h2 className="main-heading">Precision Laser & Siroski Services</h2>
+<div className='h-line'></div>
+<p className="text-lg mb-8">
+  Offering engraving, Siroski, and design services for leather, rexine, fabric, and footwear industries.
+</p>
+
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         {services.map((service, index) => (
           <ServiceCard key={index} icon={service.icon} title={service.title} description={service.description} />
